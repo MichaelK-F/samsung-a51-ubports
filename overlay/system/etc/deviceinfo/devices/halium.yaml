@@ -1,0 +1,17 @@
+eos:
+  Names:
+    - eos
+  PrettyName: Pixel Watch 2
+  DeviceType: watch
+  GridUnit: 8
+  SupportedOrientations:
+    - Portrait
+  MirAndroidPlatformServerBackpressure:
+    - false
+  MirAndroidPlatformServerPartialUpdates:
+    - true
+  MirAndroidPlatformServerEglSync:
+    - false
+  MirAndroidPlatformClientEglFlush:
+    - "!/usr/bin/unity8,!/usr/bin/lomiri,all"
+
